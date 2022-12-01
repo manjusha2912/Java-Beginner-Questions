@@ -1,0 +1,10 @@
+class Solution {
+    static string voterEligibility(int age) {
+         if (age<18){
+            return ("Not eligible to vote.")
+        }
+        else {
+            return("Eligible to vote.");
+        }
+    }
+}
