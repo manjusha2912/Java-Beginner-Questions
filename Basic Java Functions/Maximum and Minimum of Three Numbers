@@ -1,0 +1,22 @@
+class Solution{
+    static int max(int N1, int N2, int N3){
+        max = N1;
+        if (max>N2){
+            max = N2;
+        }
+        else if (max>N3){
+            max = N3;
+        }
+        return (max);
+    }
+    static int min(int N1, int N2, int N3){
+        min = N1;
+        if (min<N2){
+            min = N2;
+        }
+        else if (min<N3){
+            min = N3;
+        }
+        return (min);
+    }
+}
